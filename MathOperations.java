@@ -55,7 +55,7 @@ class MathOperations{
 			o.getResult(a,b);
 		}
 		else{
-			System.out.println("Enter a valid number(1-4)");
+			System.out.println("*********Enter a valid number(1-4)*********");
 		}
 	}
 }
