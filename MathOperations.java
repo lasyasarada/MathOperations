@@ -53,5 +53,8 @@ class MathOperations{
 			o=new Division();
 			o.getResult(a,b);
 		}
+		else{
+			System.out.println("Enter a valid number(1-4)");
+		}
 	}
 }
