@@ -31,12 +31,13 @@ class MathOperations{
 		//Operation o=new Operation();
 		Operation o;
 		Scanner input=new Scanner(System.in);
-		System.out.println("Enter 1.Addition 2.Subtraction 3.Multiplication 4.Division");
-		int m=input.nextInt();
 		System.out.print("a=");
 		int a=input.nextInt();
 		System.out.print("b=");
 		int b=input.nextInt();
+		System.out.println("Enter 1.Addition 2.Subtraction 3.Multiplication 4.Division");
+		int m=input.nextInt();
+	
 		if (m==1){
 			o=new Add();
 			o.getResult(a,b);
